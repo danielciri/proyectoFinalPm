@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Desde Android 8 solo se permiten conexiones https.
+    Para aceptar conexiones http hay que indicar una configuración de red
+    declarando expresamente desde que dominios se aceptan conexiones http.
+-->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.1.52</domain>
+        <domain includeSubdomains="true">172.20.10.9</domain>
+        <domain includeSubdomains="true">192.168.104.3</domain>
+        <domain includeSubdomains="true">192.168.104.3:8090</domain>
+
+        <domain includeSubdomains="true">192.168.1.52:8090</domain>
+        <domain includeSubdomains="true">172.20.10.9:8090</domain>
+        <domain includeSubdomains="true">192.168.1.52:8093</domain>
+        <domain includeSubdomains="true">192.168.1.52:20060</domain>
+        <domain includeSubdomains="true">192.168.1.52:5002</domain>
+        <domain includeSubdomains="true">192.168.1.52:5000</domain>
+        <domain includeSubdomains="true">192.168.56.1</domain>
+        <domain includeSubdomains="true"> 192.168.56.1:8090</domain>
+        <domain includeSubdomains="true"> 192.168.56.1:8093</domain>
+        <domain includeSubdomains="true"> 192.168.56.1:20060</domain>
+        <domain includeSubdomains="true"> 192.168.56.1:5002</domain>
+        <domain includeSubdomains="true"> 192.168.56.1:5000</domain>
+
+    </domain-config>
+</network-security-config>

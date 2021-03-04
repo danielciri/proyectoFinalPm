@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/titulo_parametros">
+
+        <EditTextPreference
+            android:defaultValue="false"
+            android:key="ip"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/direccion_up_server"
+            android:title="@string/direccion_titulo" />
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/values_encryption"
+            android:entryValues="@array/values_encryption"
+            android:key="values_encryption"
+            android:summary="@string/port_server"
+            android:title="@string/titulo_puerto" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Configuracion de alarma">
+        <EditTextPreference
+            android:defaultValue="false"
+            android:key="horaAlarma"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/hora_summary"
+            android:title="@string/hora_alarma_title"/>
+        <EditTextPreference
+            android:defaultValue="false"
+            android:key="minutos"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/summary_minutos"
+            android:title="@string/titulo_minutos" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_frase_dia"
+
+            android:title="Frase del Dia"/>
+        <item
+            android:id="@+id/nav_autores"
+
+            android:title="Autores"/>
+        <item
+            android:id="@+id/nav_categorias"
+
+            android:title="Categorias"/>
+        <item
+            android:id="@+id/nav_ModoAdministrador"
+
+            android:title="Iniciar sesion(Modo Admin)"/>
+    </group>
+
+    <item android:title="Opciones Administrador"
+        android:id="@+id/nav_titulo_opciones_admin">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_AddOdeleteAutor"
+
+                    android:title="Anadir o modificar Autor"/>
+                <item
+                    android:id="@+id/nav_AddOdeleteCategoria"
+
+
+                    android:title="Anadir o modificar categoria"/>
+                <item
+                    android:id="@+id/nav_Add_O_modificar_frase"
+
+                    android:title="Anadir  o modificar Frase"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

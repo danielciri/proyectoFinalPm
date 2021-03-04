@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="values_encryption">
+
+        <item>8090</item>
+        <item>8093</item>
+        <item>20060</item>
+        <item>5000</item>
+        <item>5002</item>
+    </string-array>
+
+</resources>

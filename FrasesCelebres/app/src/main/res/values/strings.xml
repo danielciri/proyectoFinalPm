@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">FrasesCelebres</string>
+    <string name="titulo_parametros">Parametros de conexion al servidor</string>
+    <string name="direccion_up_server">Introduzca la direccion ip</string>
+    <string name="direccion_titulo">Direccion IP</string>
+    <string name="port_server">Escoja el puerto al que desea conectarse</string>
+    <string name="settings_action">Preferences</string>
+    <string name="hora_alarma_title">Hora para mostrar</string>
+    <string name="hora_summary">Introduce la hora</string>
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Cerrar navigation drawer</string>
+    <string name="nav_header_title">Bienvenido</string>
+    <string name="nav_header_subtitle">Admin</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="summary_minutos">Introduzca los minutos de la hora a la que sonara la alarma</string>
+    <string name="titulo_minutos">Minutos</string>
+    <string name="titulo_puerto">Puerto:</string>
+    <string name="action_settings">Settings</string>
+    <string name="user">Usuario</string>
+    <string name="password">Password</string>
+    <string name="inicio_sesion">Iniciar Sesion</string>
+    <string name="anyo_muerte">Año de muerte</string>
+    <string name="anyo_nacimiento">Año nacimiento</string>
+    <string name="add_autor">Añadir Autor</string>
+    <string name="add_categoria">Añadir Categoria</string>
+    <string name="add_frase">Añadir frase</string>
+    <string name="registro">Resgistrarse</string>
+    <string name="nombre_autor">Nombre Autor</string>
+    <string name="profesion">Profesion</string>
+    <string name="nombre_categoria">Nombre categoria</string>
+    <string name="button_insertar_categoria">Insertar Categoria</string>
+    <string name="texto_frase">Indique la frase</string>
+    <string name="fecha_programada">Fecha programada</string>
+    <string name="dialog_accion">¿Que acción desea realizar?</string>
+    <string name="bt_update">Modificar</string>
+
+    <string name="bt_insertar_frase">Insertar Frase</string>
+    <string name="bt_add">Añadir</string>
+    <string name="check_box">Recordar usuario y contraseña</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
